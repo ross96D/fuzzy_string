@@ -3,6 +3,8 @@ import 'dart:math';
 import 'package:fuzzy_string/src/matcher.dart';
 
 class DamerauLevenshtein extends FuzzyStringMatcher {
+  const DamerauLevenshtein();
+
   @override
   int similarity(String s1, String s2) {
     return optimalStringAlignmentDistance(s1, s2);

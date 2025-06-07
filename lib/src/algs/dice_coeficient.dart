@@ -13,6 +13,8 @@ Set _intersect(Set<String> set1, Set<String> set2) {
 }
 
 class DiceCoefficient extends FuzzyStringMatcher {
+  const DiceCoefficient();
+
   @override
   double normalSimilarity(String s1, String s2) {
     if (s1.length < 2 || s2.length < 2) return 0;

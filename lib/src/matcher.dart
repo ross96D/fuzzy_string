@@ -2,6 +2,8 @@ import 'package:fuzzy_string/fuzzy_string.dart';
 
 /// Base class for the fuzzy string matchers
 abstract class FuzzyStringMatcher {
+  const FuzzyStringMatcher();
+
   int similarity(String s1, String s2);
 
   int similarityIgnoreCase(String s1, String s2) {

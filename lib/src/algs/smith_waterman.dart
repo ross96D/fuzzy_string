@@ -3,6 +3,8 @@ import 'dart:math';
 import 'package:fuzzy_string/src/matcher.dart';
 
 class SmithWaterman extends FuzzyStringMatcher {
+  const SmithWaterman();
+
   @override
   int similarity(String s1, String s2) {
     return smithWaterman(s1, s2).score;
