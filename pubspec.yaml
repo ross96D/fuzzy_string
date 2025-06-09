@@ -1,6 +1,6 @@
 name: fuzzy_string
-description: A starting point for Dart libraries or applications.
-version: 0.1.0
+description: A package implementing some fuzzy string matching algorithms.
+version: 1.0.0
 repository: https://github.com/ross96D/fuzzy_string
 
 environment:
